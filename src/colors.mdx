@@ -1,0 +1,45 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Design System/Colors" />
+
+
+
+Цветовая система нашей UI библиотеки использует CSS переменные для обеспечения гибкости и поддержки тем.
+
+
+- **--ui-color-primary**: Основной цвет бренда (#2563eb)
+- **--ui-color-primary-hover**: Состояние наведения (#1d4ed8)
+- **--ui-color-primary-active**: Активное состояние (#1e40af)
+
+
+- **--ui-color-secondary**: Вторичный цвет (#6b7280)
+- **--ui-color-secondary-hover**: Наведение (#4b5563)
+- **--ui-color-secondary-active**: Активное (#374151)
+
+
+- **--ui-color-success**: Успех (#10b981)
+- **--ui-color-danger**: Ошибка (#ef4444)
+
+
+- **--ui-color-background**: Основной фон (#ffffff)
+- **--ui-color-background-secondary**: Вторичный фон (#f9fafb)
+- **--ui-color-background-tertiary**: Третичный фон (#f3f4f6)
+
+
+- **--ui-color-border**: Стандартная граница (#e5e7eb)
+- **--ui-color-border-hover**: Граница при наведении (#d1d5db)
+- **--ui-color-border-focus**: Граница в фокусе (#2563eb)
+
+
+- **--ui-color-text-primary**: Основной текст (#111827)
+- **--ui-color-text-secondary**: Вторичный текст (#6b7280)
+- **--ui-color-text-disabled**: Отключенный текст (#9ca3af)
+- **--ui-color-text-inverse**: Инвертированный текст (#ffffff)
+
+
+```css
+.button {
+  background-color: var(--ui-color-primary);
+  color: var(--ui-color-text-inverse);
+  border: 1px solid var(--ui-color-border);
+}
